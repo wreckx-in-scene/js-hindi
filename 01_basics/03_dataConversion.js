@@ -25,3 +25,19 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+
+// ***************Operations*******************
+
+let str1 = "Amogh"
+let str2 = " Dando"
+
+console.log(str1 + str2);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);       // string comes first => all are treated as strings
+console.log(1 + 2 + "2");       // if string comes at last => all operations are done normally before string
+
+
+
